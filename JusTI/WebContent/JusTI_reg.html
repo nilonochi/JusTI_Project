@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JusTI Registration Page</title>
+</head>
+<body bgcolor="gray">
+
+<h2>JusTI Registration</h2>
+
+	<form action=JusTI_reg.jsp method=post>
+		First name :<input type="text" name="fname" /><br/><br/>
+		Last name :<input type="text" name="lname" /><br/><br/>
+		Username :<input type="text" name="userid" /><br/><br/>
+		Password :<input type="password" name="pwd" /><br/><br/>
+		Address :<input type="text" name="address" /><br/><br/>
+		Contact :<input type="text" name="cto" /><br/><br/>
+		<fieldset>
+        <legend>Type of Access</legend>
+		<label><input type="radio" name="typeaccess" value="user" checked>User</label><br>
+		<label><input type="radio" name="typeaccess" value="developer">Developer</label><br>
+		</fieldset>
+		<br/><br/>
+
+		<input type="submit" name="register" value="Register" />
+	</form>
+	<form action="index.html" method="get" >
+		<button type="submit">Cancel</button>
+	</form>
+
+</body>
+</html>
